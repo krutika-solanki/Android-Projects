@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/resultView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+
+    <TableLayout
+        android:id="@+id/child1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TableRow android:weightSum="4">
+
+            <Button
+                android:id="@+id/idAC"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="AC"
+                android:textColor="@color/black"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/idPerc"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="%"
+                android:textColor="@color/black"
+                android:textSize="32dp" />
+
+            <ImageButton
+                android:id="@+id/idBack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/baseline_arrow_back_24" />
+
+            <Button
+                android:id="@+id/idDiv"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="/"
+                android:textColor="#0FDDDD"
+                android:textSize="40dp" />
+        </TableRow>
+
+        <TableRow android:weightSum="4">
+
+            <Button
+                android:id="@+id/id7"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="7"
+                android:textColor="@color/black"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/id8"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="8"
+                android:textColor="@color/black"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/id9"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="9"
+                android:textColor="@color/black"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/idMul"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="x"
+                android:textColor="#0FDDDD"
+                android:textSize="40dp" />
+        </TableRow>
+
+        <TableRow android:weightSum="4">
+
+            <Button
+                android:id="@+id/id4"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="4"
+                android:textColor="@color/black"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/id5"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="5"
+                android:textColor="@color/black"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/id6"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="6"
+                android:textColor="@color/black"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/idMin"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="-"
+                android:textColor="#0FDDDD"
+                android:textSize="40dp" />
+        </TableRow>
+
+        <TableRow android:weightSum="4">
+
+            <Button
+                android:id="@+id/id1"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/id2"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="2"
+                android:textColor="@color/black"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/id3"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="3"
+                android:textColor="@color/black"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/idPlus"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="+"
+                android:textColor="#0FDDDD"
+                android:textSize="40dp" />
+        </TableRow>
+
+        <TableRow android:weightSum="4">
+
+            <Button
+                android:id="@+id/id00"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="00"
+                android:textColor="@color/black"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/id0"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/idDot"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="."
+                android:textColor="@color/black"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/idEq"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="="
+                android:textColor="#0FDDDD"
+                android:textSize="40dp" />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>
